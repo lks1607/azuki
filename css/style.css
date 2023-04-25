@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* .mobile{
+    position: relative;
+    z-index: 1;
+}
+
+.mobile img{
+    width: 340px;
+    height: 700px;
+}
+
+.gif a img{
+    width: 320px;
+    height: 691px;
+}
+
+.gif{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    z-index: 0;
+} */
+
+.mobile{
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.mobile img{
+    width: 300px;
+    
+}
+
+.gif{
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gif img{
+    width: 270px;
+}
